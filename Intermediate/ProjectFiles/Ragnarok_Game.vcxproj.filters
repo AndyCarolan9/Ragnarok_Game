@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Ragnarok_Game.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{BE4C566B-4C96-45D6-8B55-6A3FF6928F98}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Ragnarok_Game.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Ragnarok_GameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{60D04731-1D48-4533-85D5-25762DDE2B89}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Ragnarok_Game">
+      <UniqueIdentifier>{0213A990-2EB1-4B5C-912B-F6C3DB2A7BB9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Ragnarok_Game\Ragnarok_Game.Build.cs">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Ragnarok_Game.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_Game.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Ragnarok_GameCharacter.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_GameCharacter.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Ragnarok_GameGameMode.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_GameGameMode.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Ragnarok_GameHUD.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_GameHUD.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Ragnarok_GameProjectile.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_GameProjectile.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
