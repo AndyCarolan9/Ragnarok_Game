@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.25807.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{EF709186-739F-43C9-8EA4-5B487BBE97FB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{5113A15D-98D2-4600-975B-80E82F135867}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{E322D6A1-7BF9-43DB-87C1-62D4C0898085}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{7287D368-EE38-4A2E-B794-8356424D6E57}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ragnarok_Game", "Intermediate\ProjectFiles\Ragnarok_Game.vcxproj", "{DDC19999-9B0B-4969-BBB3-080D3BA2B30F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{CA2BB6AF-3CB3-41B6-A628-190EE182D147}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{69E15495-EF92-4345-B209-616276F517FA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{CA3C9060-E5B6-4DE3-B895-36500D31D46D}"
 	ProjectSection(SolutionItems) = preProject
 		D:\Program Files\Epic Games\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis = D:\Program Files\Epic Games\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
@@ -81,7 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CA2BB6AF-3CB3-41B6-A628-190EE182D147} = {EF709186-739F-43C9-8EA4-5B487BBE97FB}
-		{DDC19999-9B0B-4969-BBB3-080D3BA2B30F} = {E322D6A1-7BF9-43DB-87C1-62D4C0898085}
+		{CA2BB6AF-3CB3-41B6-A628-190EE182D147} = {5113A15D-98D2-4600-975B-80E82F135867}
+		{DDC19999-9B0B-4969-BBB3-080D3BA2B30F} = {7287D368-EE38-4A2E-B794-8356424D6E57}
 	EndGlobalSection
 EndGlobal

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Ragnarok_Game.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BE4C566B-4C96-45D6-8B55-6A3FF6928F98}</UniqueIdentifier>
+      <UniqueIdentifier>{A903566A-1EF6-424F-8D12-5F0D608E685D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ragnarok_Game.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{60D04731-1D48-4533-85D5-25762DDE2B89}</UniqueIdentifier>
+      <UniqueIdentifier>{0F5626D0-61A3-423C-AD77-FDC39A0A930A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Ragnarok_Game">
-      <UniqueIdentifier>{0213A990-2EB1-4B5C-912B-F6C3DB2A7BB9}</UniqueIdentifier>
+      <UniqueIdentifier>{FC169CE8-0AB7-45BB-BE35-010D26B8BBB5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ragnarok_Game\Ragnarok_Game.Build.cs">
       <Filter>Source\Ragnarok_Game</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\Ragnarok_Game</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_Game.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Ragnarok_GameBombActor.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_GameBombActor.h">
       <Filter>Source\Ragnarok_Game</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Ragnarok_Game\Ragnarok_GameCharacter.cpp">
@@ -65,5 +71,21 @@
     <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_GameProjectile.h">
       <Filter>Source\Ragnarok_Game</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Tile.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Tile.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Teleporter.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Teleporter.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

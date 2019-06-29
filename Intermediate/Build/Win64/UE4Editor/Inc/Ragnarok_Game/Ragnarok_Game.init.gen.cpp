@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeRagnarok_Game_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Ragnarok_Game",
 				PKG_CompiledIn | 0x00000000,
-				0x377C792C,
-				0x14E9AA21,
+				0x46E0138D,
+				0x144D3D24,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
