@@ -412,20 +412,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Intermediate\Build\Win64\UE4Editor\Inc\Ragnarok_Game"
-/I "C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Source"
-/I "C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Source\Ragnarok_Game"
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/FI"C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Intermediate\Build\Win64\Ragnarok_GameEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Intermediate\Build\Win64\Ragnarok_GameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Intermediate\Build\Win64\Ragnarok_GameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Source\Ragnarok_Game\Ragnarok_GameCharacter.cpp"
-/FI"C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Intermediate\Build\Win64\UE4Editor\Development\Ragnarok_Game\Definitions.Ragnarok_Game.h"
-/Fo"C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Intermediate\Build\Win64\UE4Editor\Development\Ragnarok_Game\Ragnarok_GameCharacter.cpp.obj"
+/I "D:\UE4 projs\Ragnarok_Game\Intermediate\Build\Win64\UE4Editor\Inc\Ragnarok_Game"
+/I "D:\UE4 projs\Ragnarok_Game\Source"
+/I "D:\UE4 projs\Ragnarok_Game\Source\Ragnarok_Game"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"D:\UE4 projs\Ragnarok_Game\Intermediate\Build\Win64\Ragnarok_GameEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\UE4 projs\Ragnarok_Game\Intermediate\Build\Win64\Ragnarok_GameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\UE4 projs\Ragnarok_Game\Intermediate\Build\Win64\Ragnarok_GameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\UE4 projs\Ragnarok_Game\Source\Ragnarok_Game\Ragnarok_GameCharacter.cpp"
+/FI"D:\UE4 projs\Ragnarok_Game\Intermediate\Build\Win64\UE4Editor\Development\Ragnarok_Game\Definitions.Ragnarok_Game.h"
+/Fo"D:\UE4 projs\Ragnarok_Game\Intermediate\Build\Win64\UE4Editor\Development\Ragnarok_Game\Ragnarok_GameCharacter.cpp.obj"
 /TP
 /GR-
 /W4

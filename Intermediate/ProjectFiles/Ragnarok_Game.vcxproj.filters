@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Ragnarok_Game.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A903566A-1EF6-424F-8D12-5F0D608E685D}</UniqueIdentifier>
+      <UniqueIdentifier>{30DFD6ED-F4A8-4A50-9B6D-833D3CC56A70}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ragnarok_Game.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0F5626D0-61A3-423C-AD77-FDC39A0A930A}</UniqueIdentifier>
+      <UniqueIdentifier>{C08706A9-88DE-4552-B3F1-2793A02FF989}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Ragnarok_Game">
-      <UniqueIdentifier>{FC169CE8-0AB7-45BB-BE35-010D26B8BBB5}</UniqueIdentifier>
+      <UniqueIdentifier>{5092C9AA-CF26-4E49-93D2-5C7718708A79}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ragnarok_Game\Ragnarok_Game.Build.cs">
       <Filter>Source\Ragnarok_Game</Filter>
@@ -71,21 +71,17 @@
     <ClInclude Include="..\..\Source\Ragnarok_Game\Ragnarok_GameProjectile.h">
       <Filter>Source\Ragnarok_Game</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Ragnarok_Game\Teleporter.cpp">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ragnarok_Game\Teleporter.h">
+      <Filter>Source\Ragnarok_Game</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Ragnarok_Game\Tile.cpp">
       <Filter>Source\Ragnarok_Game</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Ragnarok_Game\Tile.h">
       <Filter>Source\Ragnarok_Game</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Ragnarok_Game\Teleporter.h">
-      <Filter>Source\Ragnarok_Game</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Ragnarok_Game\Teleporter.cpp">
-      <Filter>Source\Ragnarok_Game</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

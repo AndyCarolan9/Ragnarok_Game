@@ -13,6 +13,8 @@ class RAGNAROK_GAME_API ATeleporter : public AActor
 	
 
 private:
+	bool isUsed = false;
+
 	UPROPERTY(EditDefaultsOnly, Category = Destination)
 	FVector DestinationOrdinates;
 
@@ -31,6 +33,8 @@ public:
 private:
 	UFUNCTION(BlueprintCallable, Category=Teleport)
 	void SetDestinationOrdinates(FVector coordinates);
+
+	void SetIsUsed();
 
 public:
 	UFUNCTION(BlueprintCallable, Category = Teleport)

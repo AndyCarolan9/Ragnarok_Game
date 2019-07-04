@@ -1,3 +1,3 @@
-C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Source\Ragnarok_Game\Ragnarok_Game.Build.cs
-C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Source\Ragnarok_Game.Target.cs
-C:\Users\Andy Carolan\Documents\UnrealProjects\Ragnarok_Game\Source\Ragnarok_GameEditor.Target.cs
+D:\UE4 projs\Ragnarok_Game\Source\Ragnarok_Game\Ragnarok_Game.Build.cs
+D:\UE4 projs\Ragnarok_Game\Source\Ragnarok_Game.Target.cs
+D:\UE4 projs\Ragnarok_Game\Source\Ragnarok_GameEditor.Target.cs

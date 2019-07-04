@@ -30,7 +30,20 @@ void ATeleporter::SetDestinationOrdinates(FVector coordinates) {
 	this->DestinationOrdinates = coordinates;
 }
 
+void ATeleporter::SetIsUsed() {
+	if (this->isUsed) {
+		this->isUsed = false;
+	}
+	else {
+		this->isUsed = true;
+	}
+}
+
 void ATeleporter::TeleportPlayer() {
-	GetWorld()->GetFirstPlayerController()->GetPawn()->SetActorLocation(this->DestinationOrdinates);
+	if (!this->isUsed) {
+		GetWorld()->GetFirstPlayerController()->GetPawn()->SetActorLocation(this->DestinationOrdinates);
+
+		SetIsUsed();
+	}
 }
 
