@@ -15,9 +15,6 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = ID)
 	int32 id;
 
-	UPROPERTY(EditDefaultsOnly, Category = Teleporters)
-		TArray<ATeleporter*> teleporters;
-
 public:	
 	// Sets default values for this actor's properties
 	ATile();
